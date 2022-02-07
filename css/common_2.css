@@ -1,5 +1,8 @@
-@use "./settings_2" as sss;
 .fc_contents {
-  color: #ffffff; }
-  .fc_contents .test {
-    color: #000; }
+  color: #1a1a1a;
+}
+.fc_contents .test {
+  color: #000;
+  background-color: #bbb;
+}
+/*# sourceMappingURL=common_2.css.map */
