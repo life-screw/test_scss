@@ -1,0 +1,10 @@
+@charset "UTF-8";
+// @use "settings_2" as sss;
+@use "settings2" as sss;
+
+.fc_contents {
+  color: sss.$cText;
+  .test {
+    color: #000;
+  }
+}

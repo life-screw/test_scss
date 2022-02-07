@@ -1,0 +1,89 @@
+$cBase: #003f98; // blue
+$cAcc: #d3ff71; // yellow
+$cText: #1a1a1a; // black
+$cTextBlue: #063f98; // blue
+$cWht: #fff; // white
+$cHover: #2c69b2; // blue - hover
+$anim: all 0.6s 0s ease;
+
+@function fs($px) {
+  $size: 0;
+
+  @if $px == 10 {
+    $size: 77%;
+  }
+
+  @if $px == 11 {
+    $size: 85%;
+  }
+
+  @if $px == 12 {
+    $size: 93%;
+  }
+
+  @if $px == 13 {
+    $size: 100%;
+  }
+
+  @if $px == 14 {
+    $size: 108%;
+  }
+
+  @if $px == 15 {
+    $size: 116%;
+  }
+
+  @if $px == 16 {
+    $size: 123.1%;
+  }
+
+  @if $px == 17 {
+    $size: 131%;
+  }
+
+  @if $px == 18 {
+    $size: 138.5%;
+  }
+
+  @if $px == 19 {
+    $size: 146.5%;
+  }
+
+  @if $px == 20 {
+    $size: 153.9%;
+  }
+
+  @if $px == 21 {
+    $size: 161.6%;
+  }
+
+  @if $px == 22 {
+    $size: 167%;
+  }
+
+  @if $px == 23 {
+    $size: 174%;
+  }
+
+  @if $px == 24 {
+    $size: 182%;
+  }
+
+  @if $px == 25 {
+    $size: 189%;
+  }
+
+  @if $px == 26 {
+    $size: 197%;
+  }
+
+  @if $px == 30 {
+    $size: 227%;
+  }
+
+  @if $size == 0 {
+    $size: ($px / 13 * 100%);
+  }
+
+  @return ($size);
+}

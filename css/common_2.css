@@ -1,0 +1,5 @@
+@use "./settings_2" as sss;
+.fc_contents {
+  color: #ffffff; }
+  .fc_contents .test {
+    color: #000; }
